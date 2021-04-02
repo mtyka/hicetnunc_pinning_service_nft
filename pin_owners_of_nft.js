@@ -11,7 +11,7 @@ const getIPFS = require("./lib/get.IPFS");
 const objktSanitize = require("./lib/objkt.sanitize");
 const pin = require("./lib/ipfs.pin");
 
-const PIN_SERVICE_OBJKT_ID = 1181;
+const PIN_SERVICE_OBJKT_ID = 20577;
 const baseURL = `https://www.hicetnunc.xyz/objkt/`;
 
 const pin_wallet_creations_and_collection = async (tz, oblock, wblock) => {

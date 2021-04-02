@@ -1,35 +1,57 @@
 # IPFS Pinning Service for HicEtNunc inside an NFT
 
-This NFT is both an art piece and a service.  By collecting this NFT your are registering for a service that will keep all your
-creations and your collection pinned on IPFS, such that the metadata and file contents (your image, movie or whatever) 
-are not garbage collected by IPFS (as they otherwise will be eventually). This service promise will run 
-for one year.
+["Terms and Conditions NFT" on HicEtNunc](https://www.hicetnunc.xyz/objkt/20577)
 
-## WHAT DO I GET BY PURCHASING THIS NFT ?
-a) You collect the first NFT art project of it's kind. It provides more than a pretty picture. Its a service promise
-wrapped in an NFT.
-b) You purchase my honest commitment to do my best to pin the collection and creations associated with your Tezos wallet
-on my IPFS node for one year. This service contract will end on April 2nd, 2022.  Read the terms and conditions below.
+ This NFT is Art
 
-## WHAT? TELL ME MORE! 
-HicEtNunc NFTs store their metadata and content on [IPFS](ipfs.io) (Interplanetary Filesystem).
-Unfortunately IPFS does not guarantee that files will be kept around indefinitely unless an IPFS
-node "pins" the files. Unpinned files can be dropped theoretically at any time, which will for all 
-intents and purposes destroy the NFT they were associated with. Remember: the only thing that is immortalized on the block chain is the link to an IPFS file, nothing more.
-That IPFS file may disappear at any time, unless it is pinned. Pinning requires someone to run an IPFS node, ping the file and host it on their harddrive, 
-i.e this costs actual money. Your purchase will contribute to the hosting of your files and maintanance of the service. 
-
-## TERMS AND CONDITIONS 
-Owning this NFT automatically adds you to a list of Tezos wallets who's creations and collections will be pinned on IPFS.
-This service is an art project and is not legally binding and will be performed in an an honest best-effort manner. 
-If high reliability is required we suggest running your own IPFS node and pinning your own NFTs. 
-The pin list will be updated nightly, as far as possible, subject to limitations including but not limited to distrubtions in internet connectivity.
-The author and artist assumes no responsibility for any service distruptions even if they lead to loss of data associated with on IPFS. 
-This service contract will end on April 2nd, 2022 and the service may or may not be discontinued, potentially leading to the loss of data.
-By purchasing this NFT you agree to the terms in this file and agrees to hold the creator of this NFT harmless in the case of loss of data associated with their NFTs.
-The final, valid, applicable and most uptodate version of this agreement is ONLY found on https://www.github.com/mtyka/hicetnunc_pin_service
-Being added to the block-lists on HicEtNunc disqualifies you from this service. The operator of this service reserves the right to 
-deny service to anyone, at any time, for any reason.
+ This NFT is a promise
+ 
+ This NFT is both an art piece and a service
+ 
+ By collecting this NFT your are registering for a service that will keep all your
+ creations and your collection pinned on IPFS, such that the metadata and file contents"(your images, movies or whatever) won't be garbage collected and destroyed by IPFS (Interplanetary File System)
+ as they otherwise will be eventually, inevitably. This service promise will run for one year.
+ 
+ ### WAIT WHAT DO I GET BY PURCHASING THIS NFT ?
+ 
+ 
+ ONE. You collect the first NFT art project of its kind. 
+ It provides more than a pretty picture. It's a real backup service wrapped in an NFT.
+ 
+ 
+ TWO. You purchase my honest commitment to run a backup service to
+ backup and preserve YOUR collection and YOUR creations 
+ associated with your Tezos wallet for one year by pinning and backing up the associated files
+ on my IPFS node. This service agreement will end on April 2nd, 2022,
+ after which this NFT will simply become a collectible. Read the terms and conditions below.
+ ### WHAT? WHY DO I WANT THIS ? TELL ME MORE ABOUT THIS IPFS
+ HicEtNunc NFTs store their metadata and content on IPFS (Interplanetary File System).
+ Unfortunately IPFS does not guarantee that files will be kept around indefinitely unless an IPFS
+ node \"pins\" the files. Unpinned files can be dropped theoretically at any time, which will for all
+ intents and purposes destroy the NFT they were associated with. 
+ Remember: the only thing that is immortalized on the block chain is the link to an IPFS file, nothing more.
+ That IPFS file may disappear at any time, unless it is pinned. You can read more about it
+ here: https://docs.ipfs.io/concepts/persistence/ Pinning requires someone to run a server as an IPFS node, 
+ pin the file and host it on their harddrive, i.e this costs actual money. 
+ Your NFT purchase will contribute to the hosting of your files and maintenance of the service.
+ 
+ ### TERMS AND CONDITIONS of this NFT
+ Owning this NFT automatically adds you to a list of Tezos wallets who's creations and collections will be pinned on IPFS.
+ The pin list will be updated nightly, as far as possible, subject to limitations including but not limited to disruptions in internet connectivity and available disk space.
+ Only current owners of the NFT will be eligible for IPFS pinning. If you sell the NFT the backup service will now cover the new owners.
+ This service is an art project and like all NFTs is not actually legally binding. It relies on trust. 
+ I promise to maintain the backup service for one year in an honest best-effort manner.
+ If high reliability is required we suggest running your own IPFS node and pinning your own NFTs. Instructions on how to do 
+ this can be found on the internet or in the github repo below. The author, artist and creator of this NFT assumes no responsibility 
+ for any service disruptions even if they lead to loss of data associated with on IPFS under any circumstances whatsoever.
+ This service will end on April 2nd, 2022 and the service may or may not be discontinued, potentially leading to the loss of your data. 
+ While it is possible that a better global solution will be available to pin and preserve HicEtNunc NFTs at that future time
+ the collector is responsible for transferring their backups to another service at the point. No reminder will be sent.
+ By purchasing this NFT you agree to the terms in this file and agrees to hold the creator of this NFT harmless in the case of loss of data associated with their NFTs.
+ The final, valid, applicable and most uptodate version of this agreement is ONLY found at https://github.com/mtyka/hicetnunc_pinning_service_nft
+ Being added to the block-lists on HicEtNunc disqualifies you from this service. Likewise any NFTs that are banned will not be pinned
+ whether or not you have collected them or made them. The operator of this service reserves the right to
+ deny service to anyone, at any time, for any reason. Remember this is an NFT you are buying, not a contract."A NFT is just a bit of metadata that may or may not point elsewhere to some bit or bytes, bits that ultimately need a physical manifestation on a physical device"be it here or somewhere else. There is no cloud, there is just someone else's machine or hard drive. Machines and hard drives that consume energy and space and are made from atoms"using that energy came through a copper wire, via a transformer, most likely from some copper wires wound a million times around a spinning magnet moved by forces created by wind" or more likely pressurized steam from a pile of burning plant residue that absorbed sunlight millions of years ago that was buried in the earth." ]
 
 # Acknowledgements
 Code is based on https://github.com/atomantic/hicetnunc_tools
